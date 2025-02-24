@@ -1,0 +1,11 @@
+README.md
+setup.py
+openapi_to_openai_functions/__init__.py
+openapi_to_openai_functions/converter.py
+openapi_to_openai_functions/exceptions.py
+openapi_to_openai_functions.egg-info/PKG-INFO
+openapi_to_openai_functions.egg-info/SOURCES.txt
+openapi_to_openai_functions.egg-info/dependency_links.txt
+openapi_to_openai_functions.egg-info/requires.txt
+openapi_to_openai_functions.egg-info/top_level.txt
+tests/test_converter.py
