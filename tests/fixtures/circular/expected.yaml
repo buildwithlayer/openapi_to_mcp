@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Circular References API
+  version: 1.0.0
+paths:
+  /a:
+    $$circular_ref: '#/paths/~1b'
+  /b:
+    $$circular_ref: '#/paths/~1a'
+  /c:
+    get:
+      summary: Direct endpoint
+      responses:
+        '200':
+          description: OK
+  /d:
+    get:
+      summary: Direct endpoint
+      responses:
+        '200':
+          description: OK 
